@@ -42,7 +42,8 @@ function describeTemperature(f) {
  * @returns {number} a random integer in the range [0, `limit`)
  */
 function getRandomInt(limit) {
-  // TODO
+  let random = Math.floor(Math.random() * limit);
+  return random;
 }
 
 // -------------------- DO NOT CHANGE THE CODE BELOW ---------------------- //
